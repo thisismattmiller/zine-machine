@@ -32,6 +32,9 @@
 .item-text{
   color: #313131
 }
+h4{
+  margin: 20px !important;
+}
 
 .square{
   height: 15px;

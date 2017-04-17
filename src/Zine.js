@@ -95,7 +95,7 @@ class Zine extends Component {
                   </a>
                   <div className="item">
                     <div className="ui horizontal basic label" data-tooltip="Internet Archive Id" data-inverted="">IA</div>
-                    <span className="item-text"><a href={this.state.data.iaURL}>{this.state.data.id}</a></span>
+                    <span className="item-text"><a href={`https://archive.org/details/${this.state.data.zine}`}>{this.state.data.zine}</a></span>
                   </div>
                   
                   <a className="item">

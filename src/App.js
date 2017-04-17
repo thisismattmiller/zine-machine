@@ -97,6 +97,7 @@ class App extends Component {
     return (
       <div className="App">
 
+        <h4>A tool for evaluating Google Vision API on a Zine corpus: <a href="https://medium.com/@thisismattmiller/zines-vs-google-vision-api-part-1-process-535ea731237b">Read more about it here</a>. The buttons below limit down a part of the ~800 zines from <a href="https://archive.org/details/solidarityrevolutionarycenter">the collection</a>.</h4>
         <hr/>
         <div className="five ui buttons">
           <button className="ui button" onClick={() => this.populate('random')}>Random 100</button>
