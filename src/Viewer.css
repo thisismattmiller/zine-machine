@@ -1,0 +1,14 @@
+.Viewer{
+	display: flex;
+	min-height: 450px;
+	width: 100%;
+}
+
+.viewer-thumb-image{
+	align-items: stretch;
+	width: 100%;    
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+
+}

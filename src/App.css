@@ -1,0 +1,46 @@
+.list-zine{
+  display: flex; /* or inline-flex */
+  background-color: #fbfbfb;
+  flex-wrap: wrap;
+  margin: 10px;
+  border: solid 1px #dcdcdc;
+  padding: 10px;
+
+}
+.list-zine-item-photo{
+  border-right: solid 1px #dcdcdc;
+  margin-right: 5px;
+  text-align: center;
+}
+.list-zine-item-photo img{
+  width: 50%;
+  height: auto;
+}
+.list-zine-item-meta{
+  padding: 10px;
+}
+.list-zine-item{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  
+}
+
+.item{
+  cursor: default !important;
+}
+.item-text{
+  color: #313131
+}
+
+.square{
+  height: 15px;
+  width: 15px;
+  border: solid 1px #dcdcdc;
+  display: inline-block;
+  margin: 2px;
+  position: relative;
+  top: 5px;
+
+
+}
