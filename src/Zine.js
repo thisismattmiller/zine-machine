@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Zine.css';
 import { Link } from 'react-router-dom'
 import Viewer from './Viewer';
+import Crops from './Crops';
 
 
 
@@ -180,6 +181,10 @@ class Zine extends Component {
                         })
                       }</span>
                     </a>   
+                    <a className="item item-relative">
+                      <div className="ui horizontal basic label" data-tooltip="Page Crops" data-inverted="">Crops</div>
+                      <span className="item-text"><Crops zine={this.props.match.params.name} data={data.crops}></Crops></span>
+                    </a>
                     <a className="item">
                       <div className="ui horizontal basic label" data-tooltip="OCR Text (Google Vision)" data-inverted="">Text</div>
                     </a>
